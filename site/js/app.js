@@ -4,6 +4,8 @@
 
 var app = app || {}
 
-$(function(){;
+$(function(){
+  $( '#releaseDate' ).datepicker();
   new app.LibraryView();
+
 });
